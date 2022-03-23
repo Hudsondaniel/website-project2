@@ -1,2 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+header{ 
+    font-family: 'poppins', sans-serif;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1f2937;
+    align-items: center;
+    padding-bottom: 400px;
+    padding-right: 100px;
+    padding-top: 40px;
+
+}
+
+button {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .button:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button:main,
+  .button:focus {
+    user-select: auto;
+  }
+  
+  .button:hover:not(:disabled) {
+    filter: brightness(1.1);
+  }
+  
+  .button:disabled {
+    cursor: auto;
+  }
+.log-text{
+    margin-right: auto;
+}
+
+h1{
+    color: #fff;
+    margin-left: 220px;
+    font-weight: bolder;
+}
+
+nav .header-right{
+     text-decoration: none;
+     margin-right: 20px;
+     font-weight:800;
+
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+a{
+      
+    font-size: 18px;
+    color: #fff;  
+    text-decoration: none; 
+}
+
+.contact{
+    margin-right:  125px; 
+}
