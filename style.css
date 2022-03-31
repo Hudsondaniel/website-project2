@@ -6,6 +6,8 @@
     padding: 0;
 }
 
+/*navigation bar beginning*/
+
 header{ 
     font-family: 'poppins', sans-serif;
     flex-wrap: wrap;
@@ -13,78 +15,100 @@ header{
     justify-content: flex-end;
     background-color: #1f2937;
     align-items: center;
-    padding-bottom: 400px;
+    padding-bottom: 100px;
     padding-right: 100px;
     padding-top: 40px;
 
 }
 
-button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: din-round,sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 13px 16px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 100%;
-  }
-  
-  .button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .button:main,
-  .button:focus {
-    user-select: auto;
-  }
-  
-  .button:hover:not(:disabled) {
-    filter: brightness(1.1);
-  }
-  
-  .button:disabled {
-    cursor: auto;
-  }
-.log-text{
-    margin-right: auto;
+
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin-right: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 10px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.but{
+     margin-right: 110px;
 }
 
 h1{
-    color: #fff;
-    margin-left: 220px;
-    font-weight: bolder;
+  color: #fff;
+  font-weight: bolder; 
+
+}
+
+.head-text{
+
+  display: flex;
+  padding-left: 20px;
+  padding-right: 250px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 200px;
+  margin-left: 50px;
+  border-radius: 25px;
+  background-color:  #1899d6;
+  box-shadow: 0px 5px #1CB0F6;
+}
+
+.title{
+
+  margin-left: 175px;
+
 }
 
 nav .header-right{
@@ -107,6 +131,59 @@ a{
     text-decoration: none; 
 }
 
-.contact{
-    margin-right:  125px; 
+/*navigation bar end*/
+
+/*section for header beginning*/
+
+.section{
+    color:#fff;
+    font-size: 20px;
+    margin-right: 700px;
+    padding-top: 100px;
+}
+
+.para{
+    display: flex;
+    color: rgba(255, 255, 255, 0.817);
+    padding-top: 25px;
+    margin-left: 175px;
+    font-weight: bold;
+}
+
+.button-43 {
+  display: flex ;
+  margin-left: 175px;
+  margin-top: 30px;
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 16px;
+  justify-content: center;
+  padding-left: 10px;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
+  }
+}
+
+/* content of the page begins here */
+
+.content{
+
+  font-family: 'poppins', sans-serif;
+  display: flex;
+  margin-top: 500px;
 }
