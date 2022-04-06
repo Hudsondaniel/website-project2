@@ -165,8 +165,42 @@ section{
   font-weight: extra-bold;
 }
 
+/* Third section of the website  */
 
+.section3{
 
+  padding: 100px 200px 100px 200px;
+  
+}
+
+.text-part{
+
+  display: flex;
+  padding: 10px;
+  background-color: #3882f6;
+  border-radius: 0.5rem;
+
+}
+
+.text-in{
+  margin-right: auto;
+  color: #fff;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.but{
+  padding-right: 160px;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.text-in h1{
+  font-size: 30px;
+  font-weight: bolder;
+  
+}
 
 
 
@@ -261,4 +295,69 @@ section{
   .button-43 {
     padding: 1rem 2rem;
   }
+}
+
+
+/* The last sign up button design */
+
+.button-1 {
+  appearance: button;
+  background-color: #3882f6;
+  border: solid;
+  border-radius: 16px;
+  border-width: 4px;
+  color: white;
+  cursor: pointer;
+  font-family: 'poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin-right: 0px;
+  outline: none;
+  overflow: visible;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  border-style: solid;
+  border-color: white;
+}
+
+.button-1:after {
+  background-clip: padding-box;
+  background-color: #3882f6;
+  border-style: solid;
+  border-color: white;
+  border-radius: 16px;
+  border-width: 4px;
+  /* bottom: -4px;
+  content: ""; */
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-1:main,
+.button-1:focus {
+  user-select: auto;
+}
+
+.button-1:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.button-1:disabled {
+  cursor: auto;
 }
