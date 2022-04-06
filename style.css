@@ -47,6 +47,7 @@ header{
 
 }
 
+
 /*navigation bar end*/
 
 /*section for header beginning*/
@@ -78,6 +79,7 @@ header{
   height: 350px;
 
 }
+
 
 /* spacing between head body elements */
 
@@ -137,6 +139,7 @@ section{
   border-radius: 1rem;
 }
 
+
 /* section2 of the website */
 
 .section2{
@@ -164,6 +167,8 @@ section{
   font-style: italic;
   font-weight: extra-bold;
 }
+
+
 
 /* Third section of the website  */
 
@@ -203,7 +208,22 @@ section{
 }
 
 
+/* Fifth section of the website */
 
+.section4{
+   
+  background-color: #1f2937;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px ;
+}
+
+.copy-text{
+
+  color: #fff;
+  font-size: 10px;
+
+}
 
 
 /* Code for buttons */
